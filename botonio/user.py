@@ -1,9 +1,10 @@
 __author__ = 'antonioirizar'
 
-from boto3.session import Session
 from boto3 import resource
 from boto3.exceptions import ResourceNotExistsError
-from create_service_aws import Instance
+from boto3.session import Session
+
+from botonio.create_service_aws import Instance
 
 
 class User:
@@ -19,7 +20,7 @@ class User:
     def process_message(self, message):
         if self._state == 0:
             self._state = 1
-            return 'Hola %s soy Botonio, tu asistente para AWS o tu peor pesadilla!\n Antes de empezar tenemos que configurar algunas cositas, cual es el id de tu cuenta de AWS.' % self.name
+            return 'Hola %s soy botonio, tu asistente para AWS o tu peor pesadilla!\n Antes de empezar tenemos que configurar algunas cositas, cual es el id de tu cuenta de AWS.' % self.name
 
         if self._state == 1:
             try:

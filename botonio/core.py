@@ -1,9 +1,11 @@
 __author__ = 'antonioirizar'
 from twx.botapi import TelegramBot, ReplyKeyboardMarkup, Error
-from user import User
+
+from botonio.user import User
 
 
 class Botonio:
+    """Principal class to run the Bot"""
     def __init__(self, token):
         self.users = {}
         self.bot = TelegramBot(token)
