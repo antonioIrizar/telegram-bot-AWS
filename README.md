@@ -1,5 +1,5 @@
 # telegram-bot-AWS
-Bot for telegram to start instances of AWS
+Bot for telegram to start instances of AWS. The name of bot is Botonio and It has a funny messages
 
 It's a PoC for create a Bot in Telegram. It is not design to be productive, It is only a example. It is not secure because It need a access key to work with AWS. 
 
