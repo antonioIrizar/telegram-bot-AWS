@@ -1,2 +1,13 @@
 # telegram-bot-AWS
-Bot for telegram to up instances of AWS
+Bot for telegram to start instances of AWS
+
+It's a PoC for create a Bot in Telegram. It is not design to be productive, It is only a example. It is not secure because It need a access key to work with AWS. 
+
+The messages are in spanish.
+
+It is done with twx.botapi, thanks for this API. 
+
+To run it, first  install requirments and then execute the following command with python3:
+
+
+
