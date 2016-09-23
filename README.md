@@ -8,7 +8,7 @@ The messages are in spanish.
 It is done with twx.botapi, thanks for this API. 
 
 To run it:
-  * Install requirments 
+  * Install requirements.txt
   * Add your Telegram Token in file bot_server.py in **Your Token API**
   * Start it with the following command:
     `python3 bot_server.py`
